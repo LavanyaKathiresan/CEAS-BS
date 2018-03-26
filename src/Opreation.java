@@ -1,5 +1,5 @@
 
-class Operation{  
+class Operation1{  
  int data=50;  
   
  void change(int data){  
@@ -7,7 +7,7 @@ class Operation{
  }  
      
  public static void main(String args[]){  
-   Operation op=new Operation();  
+   Operation1 op=new Operation1();  
   
    System.out.println("before change "+op.data);  
    op.change(500);  
